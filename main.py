@@ -8,7 +8,7 @@ samara.add_class("Painting")  # => [ "Pre-Calc", "English III", "World History",
 
 samara.get_num_classes()  # => 7
 
-samara.summary()  # => "Samara is a junior enrolled in 7 classes"
+print(samara.summary())  # => "Samara is a junior enrolled in 7 classes"
 
 # second instance
 claire = Student( "Claire", "freshman", [ "Algebra", "Writing", "Contemporary World Issues", "Gym", "Earth Science" ] )
@@ -20,4 +20,5 @@ claire.get_num_classes()  # => 6
 claire.summary()  # => "Claire is a freshman enrolled in 6 classes"
 
 # function
-get_student_with_more_classes(claire, samara)  # => samara
+
+print(get_student_with_more_classes(claire, samara))  # => samara
